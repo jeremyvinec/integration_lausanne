@@ -1,6 +1,5 @@
 *{
     margin: 0 auto;
-    height: 100%;
 }
 
 a{
@@ -14,7 +13,6 @@ body{
     font-size: 1em;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    height: 100%;
 }
 
 h1{
@@ -97,7 +95,6 @@ header nav li {
     background-position : center;
     background-size : cover;
     height: 300px;
-    min-height: 100%;
 }
 
 /*  WIDGET SOCIAL */
