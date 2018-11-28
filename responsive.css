@@ -1,0 +1,110 @@
+@media screen and (min-width: 600px){
+    /*  BARRE DE NAVIGATION  */
+
+    .icons_desktop{
+        display: flex;
+    }
+
+    .icons ul li {
+        margin-right: 15px;
+    }
+
+    /*  MENU MAIN */
+
+    .container{
+        width: 600px;
+    }
+
+    .background_img{
+        height: 600px;
+    }
+
+    .menu{
+        display: flex;
+        width: 600px;
+        margin-top: -61px;
+    }
+
+    /*  WIDGET SOCIAL */
+
+    .social-widget{
+        margin-top: 150px;
+        background-color: #00a7ff;
+        width: 50px;
+        height: 300px;
+        color: #fff;
+        position: absolute;
+        padding: 0;
+        display: block;
+        position: fixed;
+    }
+
+    .social-widget ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-widget li{
+        height: 50px;
+        transition: width 2s;
+    }
+
+    .social-widget li:hover{
+        width: 160px;
+    }
+
+    .social-widget span i{
+        color: #fff;
+        display: block;
+        line-height: 50px;
+    }
+
+    .social-widget a:hover{
+        background: #002b4f;
+    }
+
+    .slide{
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
+        left: 50px;
+        position: absolute;
+        display: none;
+    }
+
+    .social-widget a:hover .slide{
+        display: block;
+    }
+
+    .slide-facebook{
+        top: 0px;
+    }
+
+    .slide-twitter{
+        top: 50px;
+    }
+
+    .slide-instagram{
+        top: 100px;
+    }
+
+    .slide-pinterest{
+        top: 150px;
+    }
+
+    .slide-youtube{
+        top: 200px;
+    }
+
+    .slide-linkedin{
+        top: 250px;
+    }
+
+    [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 20px;
+        font-style: normal;
+        margin-left: 15px !important;
+    }
+}
