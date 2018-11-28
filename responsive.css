@@ -16,7 +16,7 @@
     }
 
     .background_img{
-        height: 600px;
+        height: -webkit-fill-available;
     }
 
     .menu{
@@ -47,6 +47,7 @@
     .social-widget li{
         height: 50px;
         transition: width 2s;
+
     }
 
     .social-widget li:hover{
